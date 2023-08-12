@@ -1,0 +1,599 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  max-width: 1440px;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* nav css */
+
+nav {
+  padding-top: 66px;
+  background-color: #000;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+ul {
+  display: flex;
+  column-gap: 87px;
+  cursor: pointer;
+}
+.ulli {
+  opacity: 1;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: end;
+  opacity: 1;
+  
+}
+
+/* section css */
+
+section {
+  background-color: #000;
+  display: flex;
+}
+
+.section-info {
+  color: white;
+  padding-top: 200px;
+  text-align: center;
+}
+
+h1 {
+  /* padding-top: 200px; */
+  font-family: Inter;
+  /* font-size: 100px; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 162.959px;
+}
+
+.arajin {
+  color: #bababa;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 50px;
+  max-width: 953px;
+  margin: 0px 220px;
+}
+
+.work {
+  padding-top: 100px;
+  font-size: 50px;
+  padding-bottom: 100px;
+}
+
+.abstrakt {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: -33px;
+  padding: 20px;
+  padding-right: 100px;
+  opacity: 0;
+}
+
+.info {
+  max-width: 170px;
+  font-size: 6px;
+}
+
+.design {
+  font-size: 11px;
+}
+
+.img-info {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.img-a {
+  max-width: 756px;
+}
+
+.img-b {
+  width: 756px;
+}
+
+.img-c {
+  width: 756px;
+}
+
+.bord {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  opacity: 1;
+}
+
+.vektor {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: -33px;
+  padding: 20px;
+  padding-right: 100px;
+  opacity: 0;
+}
+
+.des {
+  font-size: 11px;
+}
+
+.vek-design {
+  max-width: 170px;
+  font-size: 6px;
+}
+
+.bord:hover {
+  background-color: #000;
+  color: white;
+}
+
+.imig {
+  position: relative;
+}
+
+.brand {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: -33px;
+  padding: 20px;
+  padding-right: 100px;
+  opacity: 0;
+}
+
+.redesign {
+  font-size: 11px;
+}
+
+.info-two {
+  max-width: 170px;
+  font-size: 6px;
+}
+
+h3 {
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+i {
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  max-width: 620px;
+}
+
+h4 {
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+h4::after {
+  content: url(imig/gic.jpg);
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.imig {
+  display: flex;
+  justify-content: center;
+}
+
+.nkar {
+  display: flex;
+  justify-content: center;
+}
+
+.sec-info {
+  color: #fff;
+  font-family: Inter;
+  font-size: 80.931px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 300px;
+}
+
+.all {
+  color: white;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  border: solid white;
+  opacity: 1;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 529.686px 1fr;
+  grid-template-rows: 475.85px;
+  gap: 70px;
+  padding-top: 101px;
+}
+
+.c {
+  width: 529.686px;
+  height: 475.85px;
+  background-color: white;
+}
+
+.a {
+  width: 529.686px;
+  height: 475.85px;
+  background-color: white;
+}
+
+.b {
+  width: 529.686px;
+  height: 475.85px;
+  background-color: white;
+}
+
+.e {
+  border: 2px solid;
+  width: 529.686px;
+  height: 475.85px;
+  background-color: white;
+}
+
+.kubik {
+  font-family: Inter;
+  font-size: 36.018px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 58px;
+  padding-left: 43px;
+}
+
+.kub {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 340px;
+  padding-top: 18px;
+  padding-left: 43px;
+}
+
+.verj {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 34px;
+  padding-left: 43px;
+}
+
+.verj::after {
+  content: url(imig/gic.jpg);
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.div {
+  width: 529.686px;
+  height: 53.555px;
+  margin-top: 65px;
+  background: #00cf2e;
+}
+
+.dp {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 43px;
+  padding-top: 14px;
+}
+
+.mejtex {
+  text-align: center;
+}
+
+.two {
+  color: white;
+  font-family: Inter;
+  font-size: 80.931px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 246px;
+  padding-bottom: 52px;
+}
+
+.two-text {
+  color: #bababa;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 78px;
+  max-width: 920px;
+}
+
+.fhoto {
+  position: relative;
+  display: flex;
+}
+
+.boy {
+  background-color: white;
+  width: 378px;
+  height: 91px;
+  position: absolute;
+  bottom: 5px;
+  opacity: 0;
+}
+
+.king:hover .boy {
+  opacity: 1;
+}
+
+.name {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 12px;
+  padding-left: 17px;
+}
+
+.first {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 17px;
+}
+
+.two-fhoto {
+  position: relative;
+}
+
+.fhoto-two {
+  right: 0px;
+  background-color: white;
+  position: absolute;
+  width: 238px;
+  bottom: 5px;
+  height: 60px;
+  padding-top: 7px;
+  padding-left: 10px;
+  opacity: 0;
+}
+
+.two-fhoto:hover .fhoto-two {
+  opacity: 1;
+}
+
+.free-fhoto {
+  position: relative;
+}
+
+.fhoto-free {
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+  padding-top: 7px;
+  padding-left: 10px;
+  width: 238px;
+  height: 60px;
+  opacity: 0;
+}
+
+.free-fhoto:hover .fhoto-free {
+  opacity: 1;
+}
+
+.for-fhoto {
+  position: relative;
+}
+
+.fhoto-for {
+  background-color: white;
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+  padding-top: 7px;
+  padding-left: 10px;
+  width: 238px;
+  height: 60px;
+  opacity: 0;
+}
+
+.for-fhoto:hover .fhoto-for {
+  opacity: 1;
+}
+
+footer {
+  background-color: #000;
+}
+
+.fotter {
+  color: white;
+  padding-top: 316px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.div-fotter {
+  font-family: Inter;
+  font-size: 80.931px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+
+.footer-in {
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.namber {
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-top: 13px;
+  padding-bottom: 53px;
+}
+
+.brauzer {
+  display: flex;
+  justify-content: center;
+}
+
+.brauzer {
+  padding-bottom: 215px;
+}
+
+a {
+  color: #c6c6c6;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 75px;
+}
+
+.d:hover {
+  background-color: white;
+  color: rgb(67, 67, 221);
+  border-radius: 32px;
+}
+
+.y:hover {
+  background-color: white;
+  color: rgb(0, 0, 254);
+  border-radius: 32px;
+}
+
+.f:hover {
+  background-color: white;
+  color: #000;
+  border-radius: 32px;
+}
+
+.u:hover {
+  background-color: white;
+  color: red;
+  border-radius: 32px;
+}
+
+.g:hover {
+  background-color: white;
+  color: rgb(255, 79, 196);
+  border-radius: 32px;
+}
+
+.o:hover {
+  background-color: white;
+  color: blue;
+  border-radius: 32px;
+}
+.footer-end {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.end {
+  margin-left: 95px;
+  padding-top: 32px;
+}
+
+.two-foter {
+  display: flex;
+
+  padding-right: 100px;
+  gap: 56px;
+
+  padding-top: 32px;
+}
+
+@media screen and (max-width: 1440px) {
+  .box {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .img-a {
+    width: 650px;
+  }
+
+  .img-b {
+    width: 650px;
+  }
+
+  .img-c {
+    width: 650px;
+  }
+  .bord {
+    width: 650px;
+  }
+
+  .img-d {
+    width: 350px;
+  }
+
+  .img-e {
+    width: 350px;
+  }
+
+  .img-f {
+    width: 350px;
+  }
+
+  .img-g {
+    width: 350px;
+  }
+}
